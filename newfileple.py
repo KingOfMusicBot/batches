@@ -2,12 +2,12 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Config
-API_ID = 12380
-API_HASH = "d927c13b"
-BOT_TOKEN = "737768"
+API_ID = 28294093
+API_HASH = "f24d982c45ab2f69a6cb8c0fee9630bd"
+BOT_TOKEN = "8333618251:AAEHeHPBwoVG3BTWtQPHmPA4uvyhy895lk8"
 
 # Group ID where all details will be sent
-ADMIN_GROUP = -1002861883767   # <-- replace with your real group id
+ADMIN_GROUP = -1002871095336   # <-- replace with your real group id
 
 app = Client("nested_buttons_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
