@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 # Config
 API_ID = 28294093
 API_HASH = "f24d982c45ab2f69a6cb8c0fee9630bd"
-BOT_TOKEN = "8333618251:AAEHeHPBwoVG3BTWtQPHmPA4uvyhy895lk8"
+BOT_TOKEN = "8333618251:AAGL7WRQS9XI8yXDolAuwup4WvdvOCderwA"
 
 # Group ID where all details will be sent
 ADMIN_GROUP = -1002871095336   # <-- replace with your real group id
@@ -21,13 +21,13 @@ async def start(client, message):
     first = message.from_user.first_name
     text = (
         f"👋 Hello {first}!\n\n"
-        "📚 Welcome to *Smart Study Bot*\n\n"
-        "✨ Here’s how it works:\n"
-        "1️⃣ Select your Platform\n"
-        "2️⃣ Choose your Class (8th – Dropper)\n"
-        "3️⃣ Send your Batch Name\n"
-        "4️⃣ You will receive your batch within 48 hours ✅\n\n"
-        "🔔 Note: All your details will be securely shared with our Admin Group."
+        "📚 Welcome to *𝐒𝐭𝐮𝐝𝐲 𝐌𝐞𝐭𝐚 𝐁𝐚𝐭𝐜𝐡 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐁𝐨𝐭*\n\n"
+        "✨ ʜᴇʀᴇ’ꜱ ʜᴏᴡ ɪᴛ ᴡᴏʀᴋꜱ:\n"
+        "1️⃣ ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘʟᴀᴛꜰᴏʀᴍ\n"
+        "2️⃣ ᴄʜᴏᴏꜱᴇ ʏᴏᴜʀ ᴄʟᴀꜱꜱ (8ᴛʜ – ᴅʀᴏᴘᴘᴇʀ)\n"
+        "3️⃣ ꜱᴇɴᴅ ʏᴏᴜʀ ʙᴀᴛᴄʜ ɴᴀᴍᴇ\n"
+        "4️⃣ ʏᴏᴜ ᴡɪʟʟ ʀᴇᴄᴇɪᴠᴇ ʏᴏᴜʀ ʙᴀᴛᴄʜ ᴡɪᴛʜɪɴ 48 ʜᴏᴜʀꜱ ✅\n\n"
+        "🔔 ɴᴏᴛᴇ: ᴀʟʟ ʏᴏᴜʀ ᴅᴇᴛᴀɪʟꜱ ᴡɪʟʟ ʙᴇ ꜱᴇᴄᴜʀᴇʟʏ ꜱʜᴀʀᴇᴅ ᴡɪᴛʜ ᴏᴜʀ ᴀᴅᴍɪɴ ɢʀᴏᴜᴘ."
     )
 
     # Start Menu with single Platform button
